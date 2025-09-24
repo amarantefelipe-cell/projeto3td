@@ -46,4 +46,4 @@ def ranking_html():
         ORDER BY votos DESC
     """)
     ranking = [dict(row) for row in cur.fetchall()]
-    return render_template("ranking.html", ranking=ranking)
+    return render_template("ranking.html", ranking=ranking) #teste
